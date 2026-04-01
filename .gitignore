@@ -1,0 +1,6 @@
+*.o
+*.bin
+savedata/
+build/
+.DS_Store
+trek
