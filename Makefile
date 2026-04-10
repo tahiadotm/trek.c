@@ -8,6 +8,9 @@ TARGET = trek
 
 all: $(TARGET)
 
+run: $(TARGET)
+	./$(TARGET)
+
 $(TARGET): $(OBJ)
 	$(CC) $(OBJ) -o $(TARGET) $(LIBS)
 
